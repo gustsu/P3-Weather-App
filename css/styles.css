@@ -8,4 +8,5 @@ body{
 li{
     font-size:3em;
     line-height: 1.5em;
+    list-style: none;
 }
