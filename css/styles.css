@@ -3,10 +3,20 @@
 body{
     color:azure;
     background:black;
+    background-image:url("./../img/clouds2.jpg");
+    background-size: cover;
+    
+    
 }
 
 li{
     font-size:3em;
     line-height: 1.5em;
     list-style: none;
+}
+
+
+.weather-icon{
+    padding-left: 70px;
+    
 }
