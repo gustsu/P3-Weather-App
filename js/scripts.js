@@ -24,3 +24,7 @@ $("#gear").click(function(){
         $("#con1").addClass("hidden");
 
 });
+
+
+
+ /*$(document.body).css('background-image', 'url("./../img/clouds.jpg")');*/
