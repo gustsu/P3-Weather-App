@@ -13,7 +13,7 @@ $(function() {
         
         //change the bg based on the condition code
         
-        
+        /*
         if (weather.code < 3){
             $(document.body).css('background-image', 'url("./img/w1.jpg")');
         }
@@ -50,7 +50,7 @@ $(function() {
         else if (weather.code < 48){
             $(document.body).css('background-image', 'url("./img/w1.jpg")');
         }
-        
+        */
         
         
     },
