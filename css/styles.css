@@ -14,6 +14,7 @@ body{
 body.pushable>.pusher{
     background-image: url("./../img/w5.jpg");
     background-size: cover;
+    height:100%;
 
 }
 
@@ -89,3 +90,5 @@ margin-top: 15px;
     height: 25%;
     
 }
+
+
