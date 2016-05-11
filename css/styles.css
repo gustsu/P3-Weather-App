@@ -19,33 +19,38 @@ li{
 
 .weather-icon{
     padding: 0px;
-    padding-left: 70px;
+    padding-left: 10%;
+    margin-bottom: -40px;
     
 }
 
 .city{
     font-weight: 400;
-    margin-top:-50px;
     font-size:16pt;
+    padding-bottom: 25px;
+    
     
 }
 
 .temp{
-    font-size:48pt;
+    font-size:52pt;
     font-weight: 300;
     
 }
 
 .list{
+    margin: 0 auto;
     padding-left: 0px;
     margin-top: 20%;
-    background-color: rgba(0,0,0,.25);
-    transition: background-color .5s;
+   background-color: rgba(255,255,255,.3);
+    box-shadow: 0px 0px 8px white;
+    width:70%;
+
+    
+    
 }
 
-.list:hover{
-    background-color: rgba(0,0,0,.5);
-}
+
 
 .overlay{
     background-color: rgba(0,0,0,.85);
@@ -55,4 +60,19 @@ li{
 
 .hidden{
     display:none;
+}
+
+#gear{
+    margin-top:15px;
+width:50px;
+height:50px;
+}
+
+#fcButton{
+    color:white;
+    background-color: rgba(255,255,255,.4);
+    margin-top: 50px;
+    width: 70%;
+    height: 50px;
+    border-radius: 0px;
 }
