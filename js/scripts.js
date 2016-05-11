@@ -19,6 +19,8 @@ $(function() {
 
 
 $("#gear").click(function(){
+    $("#overlay").slideDown();
     $("#overlay").removeClass("hidden");
-    $("#con1").addClass("hidden");
+        $("#con1").addClass("hidden");
+
 });
