@@ -1,6 +1,5 @@
 /* My Styles */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
-@pageBackground: #FFFFFF url("./../img/w5.jpg");
 
 body{
     color:white;
@@ -12,6 +11,11 @@ body{
 
 
 
+body.pushable>.pusher{
+    background-image: url("./../img/w5.jpg");
+    background-size: cover;
+
+}
 
 
 li{
@@ -78,6 +82,5 @@ margin-top: 15px;
     height: 50px;
     border-radius: 0px;
 }
-
 
 

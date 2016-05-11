@@ -74,7 +74,6 @@ $("#gear").click(function(){
 
 $("#config").click(function(){
     $('.ui.sidebar').sidebar('toggle');
-    $(document.body).css('background-image', 'url("./img/w1.jpg") !important');
 });
             
 
