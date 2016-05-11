@@ -4,7 +4,7 @@
 body{
     color:white;
     background:black;
-    background-image:url("./../img/clouds2.jpg");
+    background-image:url("http://placehold.it/300x300");
     background-size: cover;
     font-family: 'Lato', sans-serif;    
     
@@ -45,7 +45,7 @@ li{
 .list{
     margin: 0 auto;
     padding-left: 0px;
-    margin-top: 20%;
+    margin-top: 10%;
    background-color: rgba(0,0,0,.3);
     box-shadow: 0px 0px 10px black;
     width:70%;
