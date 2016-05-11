@@ -77,11 +77,12 @@ margin-top: 15px;
 
 #fcButton{
     color:white;
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(0,0,0,.3);
     margin-top: 50px;
     width: 70%;
     height: 50px;
     border-radius: 0px;
+    margin-bottom: 10px;
 }
 
 
