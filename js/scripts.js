@@ -71,10 +71,6 @@ $("#gear").click(function(){
 
 
 
-
-
-
-
             
 
             
