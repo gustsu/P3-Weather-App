@@ -18,51 +18,50 @@
 </head>
 <body>
 
+
+    <!--SITE CONTENT -->
     
-   
-    
-
-    
-  
-
-
-
-        <!--SITE CONTENT -->
-    
-    <div id="con1">
-
-        <div  class="ui right aligned container">
-
-                <i id="config" class="big circular inverted configure icon"></i>
-        </div>
-
-        <div class="ui center aligned container">
-
-
-
-
-            <ul class="list">
-
-                <li class="temp">Temp</li>
-
-
-
-                <li class="icon"><img class="weather-icon" src="" alt=""></li>
-
-                <li class="city">City</li>
-
-                <!-- use cond-code to change bg -->
-                <!-- <li class="cond-code">Condition Code</li> -->
-            </ul>
-            
-            <!-- <button id="fcButton" class="ui button">5 Day Forecast</button> -->
-        </div>
-        
-        <li class="hidden cond-code">Condition Code</li>
+    <!-- SIDE BAR -->
+    <div class="ui right demo sidebar inverted vertical menu">
+        <a class="item">
+          Change City
+        </a>
+        <a class="item">
+          Terms and Conditions 
+        </a>
+        <a class="item">
+          About
+        </a>
     </div>
 
     
+    <!-- PUSHER FOR SIDEBAR -->
+    <div class="pusher">
 
+    
+        <div id="con1">
+            <div  class="ui right aligned container">
+                    <i id="config" class="big circular inverted configure icon"></i>
+            </div>
+
+            <div class="ui center aligned container">
+                <ul class="list">
+                    <li class="temp">Temp</li>
+                    <li class="icon"><img class="weather-icon" src="" alt=""></li>
+                    <li class="city">City</li>
+                    <!-- <li class="cond-code">Condition Code</li> -->
+                </ul>
+                <!-- <button id="fcButton" class="ui button">5 Day Forecast</button> -->
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <!-- END SITE CONTENT -->
+    
+    <!-- SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	<script src="js/semantic.min.js"></script>
 	<script src="js/jquery.simpleWeather.min.js"></script>

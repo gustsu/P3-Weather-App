@@ -31186,7 +31186,7 @@ body.pushable {
 }
 
 body.pushable > .pusher {
-  background: #ffffff;
+  background-image: url("./../img/w5.jpg");
 }
 
 /* Pusher should inherit background from context */
@@ -35348,3 +35348,7 @@ html.ios body {
 /*******************************
          Site Overrides
 *******************************/
+
+.pushable > .pusher {
+  background-image: url(./../img/w1.jpg) !important;
+}

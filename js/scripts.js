@@ -12,6 +12,8 @@ $(function() {
         
         
         //change the bg based on the condition code
+        
+        
         if (weather.code < 3){
             $(document.body).css('background-image', 'url("./img/w1.jpg")');
         }
@@ -49,7 +51,7 @@ $(function() {
             $(document.body).css('background-image', 'url("./img/w1.jpg")');
         }
         
-
+        
         
     },
     error: function(error) {
@@ -70,9 +72,11 @@ $("#gear").click(function(){
  /*$(document.body).css('background-image', 'url("./../img/clouds.jpg")');*/
 
 
-
+$("#config").click(function(){
+    $('.ui.sidebar').sidebar('toggle');
+    $(document.body).css('background-image', 'url("./img/w1.jpg") !important');
+});
             
 
-            
             
 
