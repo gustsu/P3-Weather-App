@@ -18,3 +18,7 @@ $(function() {
 });
 
 
+$("#gear").click(function(){
+    $("#overlay").removeClass("hidden");
+    $("#con1").addClass("hidden");
+});
