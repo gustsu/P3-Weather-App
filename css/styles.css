@@ -2,21 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 
-html.ios {
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-}
-html.ios,
-html.ios body {
-  height: initial !important;
-}
+
 
 body{
     color:white;
     background-image: url("./../img/w6.jpg");
     background-size: cover;
     font-family: 'Lato', sans-serif;   
-    
+    height: 100vp;
 }
 
 
@@ -24,7 +17,7 @@ body{
 body.pushable>.pusher{
     background-image: url("./../img/w6.jpg");
     background-size: cover;
-
+    height: 100vp;
 
 }
 
@@ -64,7 +57,6 @@ li{
    background-color: rgba(0,0,0,.3);
     box-shadow: 0px 0px 10px black;
     width:70%;
-    margin-bottom: 175px;
 
     
     
@@ -105,4 +97,13 @@ margin-top: 15px;
 
 .title{
 color:rgba(255,255,255,.9) !important;
+}
+
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
 }
