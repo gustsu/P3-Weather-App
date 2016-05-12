@@ -28,6 +28,9 @@ li{
     list-style: none;
 }
 
+.icon{
+    margin-bottom: -10px;
+}
 
 .weather-icon{
     padding: 0px;
@@ -42,6 +45,14 @@ li{
     padding-bottom: 25px;
     
     
+}
+
+.currently{
+       font-weight: 400;
+    font-size:16pt; 
+    margin-top: -10px;
+    margin-bottom: 20px;
+
 }
 
 .temp{
