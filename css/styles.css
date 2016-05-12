@@ -9,7 +9,7 @@ body{
     background-image: url("./../img/w6.jpg");
     background-size: cover;
     font-family: 'Lato', sans-serif;   
-    height: 100vp;
+    height: 100%;
 }
 
 
@@ -17,7 +17,7 @@ body{
 body.pushable>.pusher{
     background-image: url("./../img/w6.jpg");
     background-size: cover;
-    height: 100vp;
+    height: 100%;
 
 }
 
@@ -57,7 +57,7 @@ li{
    background-color: rgba(0,0,0,.3);
     box-shadow: 0px 0px 10px black;
     width:70%;
-
+    margin-bottom: 110px;
     
     
 }
